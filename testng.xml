@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestingWebpage_suite">
+  <test name="Login_page" enabled="false" >
+    <classes>
+      <class name="Webpage_Test.Login_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Register_page" enabled="false" >
+    <classes>
+      <class name="Webpage_Test.Register_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="SwitchTo_page" enabled="true" >
+    <classes>
+      <class name="Webpage_Test.SwitchTo_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
