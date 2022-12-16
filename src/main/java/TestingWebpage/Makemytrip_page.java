@@ -15,8 +15,6 @@ public class Makemytrip_page extends Baseliabrary
 	   PageFactory.initElements(driver, this);
    }
    
-   @FindBy(xpath = "//*[@id=\"webklipper-publisher-widget-container-notification-close-div\"]")
-   private WebElement parentframe;
    
    @FindBy(xpath = "//*[@id=\"webklipper-publisher-widget-container-notification-close-div\"]/i")
    private WebElement closeNotification;
@@ -24,7 +22,7 @@ public class Makemytrip_page extends Baseliabrary
    public void loginMakemytrip() 
    {
 	   
-	 applicationutility.Mouseoverclick(closeNotification);
+	// applicationutility.Mouseoverclick(closeNotification);
 	 
 	 
 	   
