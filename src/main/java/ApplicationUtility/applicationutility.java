@@ -31,11 +31,12 @@ public class applicationutility extends Baseliabrary
 	   Actions act = new Actions(driver);
 	   act.moveToElement(ele).perform();
    }
-   public static void Mouseoverclick(WebElement ele, String Value)
+   public static void Mouseoverclick(WebElement ele)
    {
 	   Actions act = new Actions(driver);
 	   act.moveToElement(ele).build().perform();
-	   driver.findElement(By.linkText(Value)).click();
+	   ele.click();
+	   //driver.findElement(By.linkText(Value)).click();
    }
    
    public static void changewindow(int tabno)
